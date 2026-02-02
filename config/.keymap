@@ -122,7 +122,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
   fun:
-  - - {t: qwerty, h: toggle}
+  - - {t: colemak, h: toggle}
     - MUTE
     - VOL DN
     - VOL UP
