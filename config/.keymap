@@ -21,12 +21,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+ - - ⌘
+    - num
+    - {t: ⇧, s: ⇪}
+    - SPACE
+    - nav
+    - {t: BACKSPACE, s: Alt+ BACKSPACE}
   colemak:
 	- - Q
     - W
@@ -49,12 +49,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - ⌘
-    - num
-    - {t: ⇧, s: ⇪}
-    - SPACE
-    - nav
-    - {t: BACKSPACE, s: Alt+ BACKSPACE}
+	- - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
  
   num:
   - - '~'
