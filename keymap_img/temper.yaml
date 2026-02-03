@@ -2,21 +2,21 @@ layers:
   default:
  - [Q, W, E, R, T, Y, U, I, O, P]
   - - A
-    - S
-    - D
-    - F
+    - &mt LCTRL S
+    - &mt LALT D
+    - &mt LSHFT F
     - G
     - H
-    - J
-    - K
-    - L
+    - &mt RSHFT J
+    - &mt LALT K
+    - &mt LCTRL L
     - {t: ;, s: ':'}
   - - Z
     - X
     - C
     - V
-    - B
-    - N
+    - &mt LGUI B
+    - &mt RGUI N
     - M
     - {t: ',', s: <}
     - {t: ., s: '>'}
