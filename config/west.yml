@@ -1,9 +1,9 @@
 manifest:
   remotes:
-#    - name: zmkfirmware
-    - name: Bad-Temper-zmk-config
-#      url-base: https://github.com/zmkfirmware
-      url-base: https://github.com/DarkVisons/Bad-Temper-zmk-config
+    - name: zmkfirmware
+#    - name: Bad-Temper-zmk-config
+      url-base: https://github.com/zmkfirmware
+#      url-base: https://github.com/DarkVisons/Bad-Temper-zmk-config
   projects:
     - name: zmk
       remote: zmkfirmware
