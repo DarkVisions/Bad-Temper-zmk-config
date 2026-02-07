@@ -3,21 +3,21 @@ layers:
   default:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - A
-    - '&hml LCTRL S'
-    - '&hml LALT D'
-    - '&hml LSHFT F'
+    - {t: S, h: ⌃}
+    - {t: D, h: ⎇}
+    - {t: F, h: ⇧}
     - G
     - H
-    - '&hml RSHFT J'
-    - '&hml RALT K'
-    - '&hml RCTRL L'
+    - {t: J, h: ⇧}
+    - {t: K, h: ⎇}
+    - {t: L, h: ⌃}
     - {t: ;, s: ':'}
   - - Z
     - X
     - C
     - V
-    - '&hml LGUI B'
-    - '&hml RGUI N'
+    - {t: B, h: ⌘}
+    - {t: N, h: ⌘}
     - M
     - {t: ',', s: <}
     - {t: ., s: '>'}

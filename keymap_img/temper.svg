@@ -120,21 +120,18 @@ path {
 </g>
 <g transform="translate(89, 104)" class="key keypos-11">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">LCTRL</tspan><tspan x="0" dy="1.2em">S</tspan>
-</text>
+<text x="0" y="0" class="key tap">S</text>
+<text x="0" y="24" class="key hold">⌃</text>
 </g>
 <g transform="translate(148, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">LALT</tspan><tspan x="0" dy="1.2em">D</tspan>
-</text>
+<text x="0" y="0" class="key tap">D</text>
+<text x="0" y="24" class="key hold">⎇</text>
 </g>
 <g transform="translate(208, 106)" class="key keypos-13">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">LSHFT</tspan><tspan x="0" dy="1.2em">F</tspan>
-</text>
+<text x="0" y="0" class="key tap">F</text>
+<text x="0" y="24" class="key hold">⇧</text>
 </g>
 <g transform="translate(267, 114)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -146,21 +143,18 @@ path {
 </g>
 <g transform="translate(580, 106)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">RSHFT</tspan><tspan x="0" dy="1.2em">J</tspan>
-</text>
+<text x="0" y="0" class="key tap">J</text>
+<text x="0" y="24" class="key hold">⇧</text>
 </g>
 <g transform="translate(639, 84)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">RALT</tspan><tspan x="0" dy="1.2em">K</tspan>
-</text>
+<text x="0" y="0" class="key tap">K</text>
+<text x="0" y="24" class="key hold">⎇</text>
 </g>
 <g transform="translate(698, 104)" class="key keypos-18">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">RCTRL</tspan><tspan x="0" dy="1.2em">L</tspan>
-</text>
+<text x="0" y="0" class="key tap">L</text>
+<text x="0" y="24" class="key hold">⌃</text>
 </g>
 <g transform="translate(758, 143)" class="key keypos-19">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -185,15 +179,13 @@ path {
 </g>
 <g transform="translate(267, 170)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">LGUI</tspan><tspan x="0" dy="1.2em">B</tspan>
-</text>
+<text x="0" y="0" class="key tap">B</text>
+<text x="0" y="24" class="key hold">⌘</text>
 </g>
 <g transform="translate(520, 170)" class="key keypos-25">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;hml</tspan><tspan x="0" dy="1.2em">RGUI</tspan><tspan x="0" dy="1.2em">N</tspan>
-</text>
+<text x="0" y="0" class="key tap">N</text>
+<text x="0" y="24" class="key hold">⌘</text>
 </g>
 <g transform="translate(580, 162)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
