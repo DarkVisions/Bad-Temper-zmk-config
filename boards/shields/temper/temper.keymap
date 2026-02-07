@@ -148,7 +148,9 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-on-release;
-            hold-trigger-key-positions = <LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 LH0 LH1 LH2>;
+        //  CoPilot says this is shit
+        //  hold-trigger-key-positions = <LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 LH0 LH1 LH2>;
+            hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17>;
             bindings = <&kp>, <&kp>;
         };
     
