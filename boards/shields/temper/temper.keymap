@@ -70,6 +70,16 @@ I had to remove all of his references and define them as ZMK keys.
 
 /*  End of urob insert  */
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+    };
+};
 
 / {
     conditional_layers {
