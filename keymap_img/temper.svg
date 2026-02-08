@@ -233,6 +233,10 @@ path {
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 <text x="0" y="-24" class="key shifted"><tspan style="font-size: 64%">Alt+BACKSP…</tspan></text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="45" y="55" width="28" height="26" class="combo"/>
+<text x="59" y="68" class="combo tap">ESC</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-num">
@@ -386,6 +390,10 @@ path {
 <g transform="translate(599, 228)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="45" y="55" width="28" height="26" class="combo"/>
+<text x="59" y="68" class="combo tap">ESC</text>
 </g>
 </g>
 </g>
@@ -543,6 +551,10 @@ path {
 <g transform="translate(599, 228)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="45" y="55" width="28" height="26" class="combo"/>
+<text x="59" y="68" class="combo tap">ESC</text>
 </g>
 </g>
 </g>
@@ -704,6 +716,10 @@ path {
 <g transform="translate(599, 228)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="45" y="55" width="28" height="26" class="combo"/>
+<text x="59" y="68" class="combo tap">ESC</text>
 </g>
 </g>
 </g>

@@ -158,3 +158,6 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
