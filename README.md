@@ -1,6 +1,6 @@
 # Bad Temper ZMK Config
 
-This is my hack of a ZMK config for the [Bad Temper] (https://github.com/essFitt/Bad-Temper) by [EssFit](https://github.com/essFitt).
+This is my hack of a ZMK config for the [Bad Temper](https://github.com/essFitt/Bad-Temper) by [EssFit](https://github.com/essFitt).
 
 Some notes about this config:
 - it incorporates a bunch of config from urob's Timeless Home Row Mods.
