@@ -90,19 +90,19 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - PG UP
     - HOME
+    - ↑
     - END
-    - ↹
     - {t: BACKSPACE, s: Alt+BACKSPACE}
-  - - {t: ⇧, h: sticky}
+  - - {t: ⌘, h: sticky}
     - {t: ⌃, h: sticky}
     - {t: ⎇, h: sticky}
-    - {t: ⌘, h: sticky}
+    - {t: ⇧, h: sticky}
     - ↹
+    - PG DN
     - ←
     - ↓
-    - ↑
     - →
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
