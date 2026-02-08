@@ -78,6 +78,12 @@ I had to remove all of his references and define them as ZMK keys.
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+        compatible = "zmk,combos";
+        combo_capslock {
+            timeout-ms = <50>;
+            key-positions = <13 16>;
+            bindings = <&kp CAPS>;
+        };
     };
 };
 
