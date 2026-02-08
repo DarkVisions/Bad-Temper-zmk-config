@@ -54,8 +54,8 @@ I had to remove all of his references and define them as ZMK keys.
                require-prior-idle-ms = <150>; hold-trigger-on-release;         \
                hold-trigger-key-positions = <TRIGGER_POS>;)
 
-// MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS) // Left-hand HRMs.
-// MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
+MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS) // Left-hand HRMs.
+MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
 
 // Hack: Make HRM combos tap-only (cf, ZMK issue #544).
 // #define ZMK_COMBO_8(NAME, TAP, POS, LAYERS, COMBO_MS, IDLE_MS, HOLD, SIDE)     \
@@ -140,10 +140,12 @@ I had to remove all of his references and define them as ZMK keys.
             require-prior-idle-ms = <150>;
             hold-trigger-on-release;
 //   CoPilot says no
-//          hold-trigger-key-positions = <RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4 RH0 RH1 RH2>;
+//    Try putting these back in now that I've included the key-labels reference
+          hold-trigger-key-positions = <RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4 RH0 RH1 RH2>;
 
 // This is my hack to make it compile: need to check the definitions.
-            hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17>;
+// Removed again post-key-labels
+//            hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17>;
             bindings = <&kp>, <&kp>;
         };
         
@@ -156,8 +158,8 @@ I had to remove all of his references and define them as ZMK keys.
             require-prior-idle-ms = <150>;
             hold-trigger-on-release;
         //  CoPilot says this is shit
-        //  hold-trigger-key-positions = <LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 LH0 LH1 LH2>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17>;
+          hold-trigger-key-positions = <LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 LH0 LH1 LH2>;
+        //    hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17>;
             bindings = <&kp>, <&kp>;
         };
     
@@ -209,9 +211,9 @@ I had to remove all of his references and define them as ZMK keys.
                 nav_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &trans        &trans        &trans        &trans        &trans            &trans       &kp HOME      &kp END       &kp TAB     &super_bspc
+        &trans        &trans        &trans        &trans        &trans          &kp PG_UP     &kp HOME       &kp UP        &kp END     &super_bspc
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &sk LSHFT     &sk LCTRL      &sk LALT      &sk LGUI      &kp TAB           &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT       &trans
+       &sk LGUI     &sk LCTRL      &sk LALT      &sk LSHFT      &kp TAB         &kp PG_DN     &kp LEFT      &kp DOWN      &kp RIGHT       &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &trans       &kp DEL        &trans        &trans        &trans            &trans        &kp RET       &trans        &trans        &trans
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
