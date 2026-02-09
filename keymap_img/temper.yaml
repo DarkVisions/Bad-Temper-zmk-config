@@ -163,3 +163,9 @@ combos:
   k: ESC
 - p: [13, 16]
   k: CAPS
+- p: [14, 15]
+  k: ⇪
+- p: [4, 5]
+  k: Alt+PSCRN
+- p: [0, 9]
+  k: {t: default, h: toggle}

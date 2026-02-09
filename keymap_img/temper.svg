@@ -243,6 +243,28 @@ path {
 <rect rx="6" ry="6" x="380" y="93" width="28" height="26" class="combo"/>
 <text x="394" y="106" class="combo tap">CAPS</text>
 </g>
+<g class="combo combopos-2">
+<path d="M394,114 l-107,0" class="combo"/>
+<path d="M394,114 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="101" width="28" height="26" class="combo"/>
+<text x="394" y="114" class="combo tap">⇪</text>
+</g>
+<g class="combo combopos-3">
+<path d="M394,58 l-107,0" class="combo"/>
+<path d="M394,58 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="45" width="28" height="26" class="combo"/>
+<text x="394" y="58" class="combo tap">
+<tspan x="394" dy="-0.6em">Alt+</tspan><tspan x="394" dy="1.2em">PSCRN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<path d="M394,87 l-344,0" class="combo"/>
+<path d="M394,87 l344,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="74" width="28" height="26" class="combo"/>
+<a href="#default">
+<text x="394" y="87" class="combo tap layer-activator">default</text>
+</a><text x="394" y="98" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-num">
@@ -406,6 +428,28 @@ path {
 <path d="M394,106 l166,0" class="combo"/>
 <rect rx="6" ry="6" x="380" y="93" width="28" height="26" class="combo"/>
 <text x="394" y="106" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-2">
+<path d="M394,114 l-107,0" class="combo"/>
+<path d="M394,114 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="101" width="28" height="26" class="combo"/>
+<text x="394" y="114" class="combo tap">⇪</text>
+</g>
+<g class="combo combopos-3">
+<path d="M394,58 l-107,0" class="combo"/>
+<path d="M394,58 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="45" width="28" height="26" class="combo"/>
+<text x="394" y="58" class="combo tap">
+<tspan x="394" dy="-0.6em">Alt+</tspan><tspan x="394" dy="1.2em">PSCRN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<path d="M394,87 l-344,0" class="combo"/>
+<path d="M394,87 l344,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="74" width="28" height="26" class="combo"/>
+<a href="#default">
+<text x="394" y="87" class="combo tap layer-activator">default</text>
+</a><text x="394" y="98" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -573,6 +617,28 @@ path {
 <path d="M394,106 l166,0" class="combo"/>
 <rect rx="6" ry="6" x="380" y="93" width="28" height="26" class="combo"/>
 <text x="394" y="106" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-2">
+<path d="M394,114 l-107,0" class="combo"/>
+<path d="M394,114 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="101" width="28" height="26" class="combo"/>
+<text x="394" y="114" class="combo tap">⇪</text>
+</g>
+<g class="combo combopos-3">
+<path d="M394,58 l-107,0" class="combo"/>
+<path d="M394,58 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="45" width="28" height="26" class="combo"/>
+<text x="394" y="58" class="combo tap">
+<tspan x="394" dy="-0.6em">Alt+</tspan><tspan x="394" dy="1.2em">PSCRN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<path d="M394,87 l-344,0" class="combo"/>
+<path d="M394,87 l344,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="74" width="28" height="26" class="combo"/>
+<a href="#default">
+<text x="394" y="87" class="combo tap layer-activator">default</text>
+</a><text x="394" y="98" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -744,6 +810,28 @@ path {
 <path d="M394,106 l166,0" class="combo"/>
 <rect rx="6" ry="6" x="380" y="93" width="28" height="26" class="combo"/>
 <text x="394" y="106" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-2">
+<path d="M394,114 l-107,0" class="combo"/>
+<path d="M394,114 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="101" width="28" height="26" class="combo"/>
+<text x="394" y="114" class="combo tap">⇪</text>
+</g>
+<g class="combo combopos-3">
+<path d="M394,58 l-107,0" class="combo"/>
+<path d="M394,58 l107,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="45" width="28" height="26" class="combo"/>
+<text x="394" y="58" class="combo tap">
+<tspan x="394" dy="-0.6em">Alt+</tspan><tspan x="394" dy="1.2em">PSCRN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<path d="M394,87 l-344,0" class="combo"/>
+<path d="M394,87 l344,0" class="combo"/>
+<rect rx="6" ry="6" x="380" y="74" width="28" height="26" class="combo"/>
+<a href="#default">
+<text x="394" y="87" class="combo tap layer-activator">default</text>
+</a><text x="394" y="98" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
