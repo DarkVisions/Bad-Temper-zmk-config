@@ -84,6 +84,24 @@ I had to remove all of his references and define them as ZMK keys.
             key-positions = <13 16>;
             bindings = <&kp CAPS>;
         };
+        compatible = "zmk,combos";
+        combo_capsword {
+            timeout-ms = <50>;
+            key-positions = <14 15>;
+            bindings = <&caps_word>;
+        };
+        compatible = "zmk,combos";
+        combo_alt-prtscn {
+            timeout-ms = <50>;
+            key-positions = <4 5>;
+            bindings = <&kp LA(PSCRN)>;
+        };
+        compatible = "zmk,combos";
+        combo_go-home {
+            timeout-ms = <50>;
+            key-positions = <0 9>;
+            bindings = <&to 0>;
+        };
     };
 };
 
